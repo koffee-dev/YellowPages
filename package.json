@@ -1,0 +1,17 @@
+{
+  "name": "yellowpages",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "puppeteer": "^24.37.5",
+    "yargs": "^18.0.0"
+  }
+}
