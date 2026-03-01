@@ -22,13 +22,13 @@ Scrape YellowPages for businesses based on a search term and location.
 
 ```bash
 # Basic usage
-bun scraper.js --search="Plumbers" --location="SC"
+bun scraper.js --search="Plumbers" --location="NC"
 
 # With a custom page limit (default is 5)
-bun scraper.js --search="Dentists" --location="Columbia, SC" --limit=10
+bun scraper.js --search="Dentists" --location="NC" --limit=10
 
 # Using aliases
-bun scraper.js -s "Roofing" -l "Charleston, SC" -m 20
+bun scraper.js -s "Roofing" -l "NC" -m 20
 ```
 
 **Options:**
